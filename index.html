@@ -8,40 +8,43 @@
     <title>AI poem generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI French Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="enter the topic of the French poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        Des pleurs dont l’aube t’arrose
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/hiba-elkhazraji">Hiba El khazraji</a>
-      and is
-      <a
-        href="https://github.com/hiba-elkhazraji/french-poem-generator"
-        target="_blank"
-        >open-sourse on github</a
-      >
-      and it hosted on
-      <a href="https://french-poem-generatorai.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="countainer">
+      <header>
+        <h1>AI French Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="enter the topic of the French poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          La tombe dit a la rose
+          <br />
+          Des pleurs dont l’aube t’arrose
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/hiba-elkhazraji">Hiba El khazraji</a>
+        and is
+        <a
+          href="https://github.com/hiba-elkhazraji/french-poem-generator"
+          target="_blank"
+          >open-sourse on github</a
+        >
+        and it hosted on
+        <a href="https://french-poem-generatorai.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
